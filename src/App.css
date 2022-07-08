@@ -42,7 +42,7 @@ body {
   transform: scale(1.3, 1.3);
 }
 
-.react-horizontal-scrolling-menu--wrapper {
+.react-horizontal-scrolling-menu-wrapper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
