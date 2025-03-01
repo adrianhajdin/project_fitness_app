@@ -11,14 +11,12 @@
     "react-dom": "^18.0.0",
     "react-horizontal-scrolling-menu": "^2.7.1",
     "react-loader-spinner": "^6.0.0-0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^6.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "eslintConfig": {
     "extends": [
@@ -39,11 +37,13 @@
     ]
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^8.13.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.4.0"
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "vite": "^6.2.0"
   }
 }
